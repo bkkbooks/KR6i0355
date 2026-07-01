@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6i0355/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0355/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說解節經
+  identifiers:
+    krp: KR6i0355
+    cbeta: T16n0677
+    cbeta_old_id: T16n0677
+    authorityid: CA0001577
+    json_key: T0677
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0677.xml
+    old_id: T16n0677
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0355_000-T.yaml, hash: 'sha256:58b9b5a0cf73a83d6e65f22c9582fe9ae0ede105a5c9484b0bdbb2ec80958a09'}
+  - {seq: 1, filename: KR6i0355_001-T.yaml, hash: 'sha256:6d73d2e0a06aa0954dc0fbf6adaa3e50b07361dbdeb0c05e9e5078dbd7b42fda'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0355_000-T.markers.yaml, hash: 'sha256:c80e618dff93ab4b659f71b47270e762e58191e4363cfcba560684e85a82a30d'}
+  - {seq: 1, role: markers, filename: assets/KR6i0355_001-T.markers.yaml, hash: 'sha256:326d2e5c170d6fcc7589a2b999a938b004018762172a938ba6cfe6bb02c5a488'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0355_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4428
+  label: 佛說解節經一卷
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0355_T_001-mulu-1
+    span:
+    - body
+    - 8
+    - 8
+  label: 1 不可言無二品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0355_T_001-mulu-2
+    span:
+    - body
+    - 1238
+    - 1238
+  label: 2 過覺觀境品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0355_T_001-mulu-3
+    span:
+    - body
+    - 1878
+    - 1878
+  label: 3 過一異品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0355_T_001-mulu-4
+    span:
+    - body
+    - 3053
+    - 3053
+  label: 4 一味品
+  type: mulu
+  level: 1
+hash: sha256:2e149a8a33ddc1aabee6175fd3ab841b69cd7a1de5da1dfa96a0f80ee24d4813
